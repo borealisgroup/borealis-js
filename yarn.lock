@@ -9544,10 +9544,12 @@ i18next-locize-backend@^1.9.0:
   resolved "https://registry.yarnpkg.com/i18next-locize-backend/-/i18next-locize-backend-1.9.0.tgz#27bb6d2224b29c11c1774df0fbcfc6eee1fa49ae"
   integrity sha512-h0uiLYxhMA+MJp0iMTXl2j4gdEEeZ2tR9LIPNtrQ5cV+2wvbfhQkZuP9xtv5CRZdAVGQkc3q+BZu4/EQ2aAkyQ==
 
-i18next-xhr-backend@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/i18next-xhr-backend/-/i18next-xhr-backend-2.0.1.tgz#7af735ee1b0c6d4ce49fa5756591040a0fba6db7"
-  integrity sha512-CP0XPjJsTE4hY1rM1KXFYo63Ib61EBLEcTvMDyJwr0vs9p/UTuA3ENCmzSs9+ghZgWSjdOigc0oUERHaxctbsQ==
+i18next-xhr-backend@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/i18next-xhr-backend/-/i18next-xhr-backend-3.2.2.tgz#769124441461b085291f539d91864e3691199178"
+  integrity sha512-OtRf2Vo3IqAxsttQbpjYnmMML12IMB5e0fc5B7qKJFLScitYaXa1OhMX0n0X/3vrfFlpHL9Ro/H+ps4Ej2j7QQ==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
 
 i18next@^15.1.0:
   version "15.1.3"
