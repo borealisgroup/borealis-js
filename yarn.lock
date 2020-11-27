@@ -1068,10 +1068,10 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.3", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
-  version "7.10.4"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.4.tgz#a6724f1a6b8d2f6ea5236dbfe58c7d7ea9c5eb99"
-  integrity sha512-UpTN5yUJr9b4EX2CnGNWIvER7Ab83ibv0pcvvHc4UOdrBI5jb8bj+32cCwPX6xu0mt2daFNjYhoi+X7beH0RSw==
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.3", "@babel/runtime@^7.12.1", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
+  version "7.12.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
+  integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -1143,15 +1143,15 @@
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
 "@borealisgroup/eslint-config-ts@file:packages/eslint-config-ts":
-  version "1.13.6"
+  version "1.13.7"
   dependencies:
-    "@borealisgroup/eslint-config" "^1.13.6"
+    "@borealisgroup/eslint-config" "^1.13.7"
     "@typescript-eslint/eslint-plugin" "^3.10.1"
     "@typescript-eslint/parser" "^3.10.1"
     eslint-import-resolver-typescript "^2.0.0"
 
 "@borealisgroup/eslint-config@file:packages/eslint-config":
-  version "1.13.6"
+  version "1.13.7"
   dependencies:
     babel-eslint "^10.1.0"
     eslint-config-airbnb "18.2.0"
@@ -11702,10 +11702,12 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-locize-editor@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/locize-editor/-/locize-editor-1.7.0.tgz#3c14abb93f6d7c4e197511221f8c4a3954e63502"
-  integrity sha512-KdxAlwViz3KjGDEH3WIgaaUDw8XS8GNPpUDNAXM/vnRUryJgkA3n6DrDAeKJ99nixlx7G7+SZ9FZx2ZV9mIv8w==
+locize-editor@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/locize-editor/-/locize-editor-3.1.1.tgz#d16c2e1b9a793f14d63d532dc8cc8892b703bfbd"
+  integrity sha512-QxbwhiJRWqRncU5gt4hlGOjHclYiBxEHP12Q1lhnIJeuHLaEMveio6bakwbniH/4mhx7UuDkV1kl5EfJA181hA==
+  dependencies:
+    "@babel/runtime" "^7.12.1"
 
 locize-lastused@^1.1.0:
   version "1.1.1"
