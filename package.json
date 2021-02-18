@@ -63,7 +63,7 @@
     "babel-plugin-styled-components": "1.10.7",
     "color": "^3.1.2",
     "concurrently": "^5.2.0",
-    "copy-text-to-clipboard": "^2.2.0",
+    "copy-text-to-clipboard": "^3.0.1",
     "cross-env": "^7.0.2",
     "dotenv-cli": "^3.2.0",
     "env-cmd": "^10.1.0",
