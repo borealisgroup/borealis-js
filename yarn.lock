@@ -1143,15 +1143,15 @@
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
 "@borealisgroup/eslint-config-ts@file:packages/eslint-config-ts":
-  version "1.13.6"
+  version "1.13.7"
   dependencies:
-    "@borealisgroup/eslint-config" "^1.13.6"
+    "@borealisgroup/eslint-config" "^1.13.7"
     "@typescript-eslint/eslint-plugin" "^3.10.1"
     "@typescript-eslint/parser" "^3.10.1"
     eslint-import-resolver-typescript "^2.0.0"
 
 "@borealisgroup/eslint-config@file:packages/eslint-config":
-  version "1.13.6"
+  version "1.13.7"
   dependencies:
     babel-eslint "^10.1.0"
     eslint-config-airbnb "18.2.0"
@@ -18555,9 +18555,9 @@ xtend@~3.0.0:
   integrity sha1-XM50B7r2Qsunvs2laBEcST9ZZlo=
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
-  integrity sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 y18n@^4.0.0:
   version "4.0.0"
