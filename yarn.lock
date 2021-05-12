@@ -1143,15 +1143,15 @@
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
 "@borealisgroup/eslint-config-ts@file:packages/eslint-config-ts":
-  version "1.13.6"
+  version "1.13.7"
   dependencies:
-    "@borealisgroup/eslint-config" "^1.13.6"
+    "@borealisgroup/eslint-config" "^1.13.7"
     "@typescript-eslint/eslint-plugin" "^3.10.1"
     "@typescript-eslint/parser" "^3.10.1"
     eslint-import-resolver-typescript "^2.0.0"
 
 "@borealisgroup/eslint-config@file:packages/eslint-config":
-  version "1.13.6"
+  version "1.13.7"
   dependencies:
     babel-eslint "^10.1.0"
     eslint-config-airbnb "18.2.0"
@@ -6526,6 +6526,13 @@ cross-env@^7.0.2:
   dependencies:
     cross-spawn "^7.0.1"
 
+cross-fetch@3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.4.tgz#9723f3a3a247bf8b89039f3a380a9244e8fa2f39"
+  integrity sha512-1eAtFWdIubi6T4XPy6ei9iUFoKpUkIF971QLN8lIvvvwueI65+Nw5haMNKUwfJxabqlIIDODJKGrQ66gxC0PbQ==
+  dependencies:
+    node-fetch "2.6.1"
+
 cross-spawn@6.0.5, cross-spawn@^6.0.0:
   version "6.0.5"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-6.0.5.tgz#4a5ec7c64dfae22c3a14124dbacdee846d80cbc4"
@@ -11707,10 +11714,12 @@ locize-editor@^1.7.0:
   resolved "https://registry.yarnpkg.com/locize-editor/-/locize-editor-1.7.0.tgz#3c14abb93f6d7c4e197511221f8c4a3954e63502"
   integrity sha512-KdxAlwViz3KjGDEH3WIgaaUDw8XS8GNPpUDNAXM/vnRUryJgkA3n6DrDAeKJ99nixlx7G7+SZ9FZx2ZV9mIv8w==
 
-locize-lastused@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/locize-lastused/-/locize-lastused-1.1.1.tgz#ca83a7386dcd74ee0cae07c8ef579cb24f345b9b"
-  integrity sha512-zq310En1BWRRjWaYdTScUwCWUcvLJuOUqFpN5LBQoCccWg9CQB5gDg/D+b8YjR2GkofRGy08C+4LGpqcGqfkHA==
+locize-lastused@^3.0.12:
+  version "3.0.12"
+  resolved "https://registry.yarnpkg.com/locize-lastused/-/locize-lastused-3.0.12.tgz#875a83a6a0fd856e24ddae50bf8a88a6625565c0"
+  integrity sha512-ipv8j7ChAaObXOhOqjB8T7Bp7EdFEC2wLNPuruwnrX6prNWirn4lbbFrPFWyDMTrF8ZBoF/BtdCcbgWLAp3s6Q==
+  dependencies:
+    cross-fetch "3.1.4"
 
 lock-verify@^2.0.2:
   version "2.2.0"
@@ -12643,6 +12652,11 @@ node-fetch-npm@^2.0.2:
     encoding "^0.1.11"
     json-parse-better-errors "^1.0.0"
     safe-buffer "^5.1.1"
+
+node-fetch@2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-fetch@^2.3.0, node-fetch@^2.5.0, node-fetch@^2.6.0:
   version "2.6.0"
