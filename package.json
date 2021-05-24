@@ -62,7 +62,7 @@
     "babel-plugin-inline-json-import": "^0.3.2",
     "babel-plugin-styled-components": "1.10.7",
     "color": "^3.1.2",
-    "concurrently": "^5.2.0",
+    "concurrently": "^6.2.0",
     "copy-text-to-clipboard": "^2.2.0",
     "cross-env": "^7.0.2",
     "dotenv-cli": "^3.2.0",
