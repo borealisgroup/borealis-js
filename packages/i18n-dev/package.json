@@ -21,7 +21,7 @@
   "dependencies": {
     "i18next": "^15.1.0",
     "i18next-browser-languagedetector": "^3.0.1",
-    "i18next-locize-backend": "^1.9.0",
+    "i18next-locize-backend": "^4.2.3",
     "locize-editor": "^1.7.0",
     "locize-lastused": "^1.1.0"
   },
