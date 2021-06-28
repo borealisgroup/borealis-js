@@ -71,7 +71,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-vue-libs": "^4.0.0",
     "framer-cli": "^1.6.3",
-    "jest": "^26.1.0",
+    "jest": "^27.0.6",
     "lerna": "^3.22.1",
     "memfs": "^3.2.0",
     "plop": "^2.7.1",
