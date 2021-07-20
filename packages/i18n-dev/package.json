@@ -19,7 +19,7 @@
   "module": "lib/index.es.js",
   "jsnext:main": "lib/index.es.js",
   "dependencies": {
-    "i18next": "^15.1.0",
+    "i18next": "^20.3.4",
     "i18next-browser-languagedetector": "^3.0.1",
     "i18next-locize-backend": "^1.9.0",
     "locize-editor": "^1.7.0",
