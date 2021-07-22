@@ -46,7 +46,7 @@
     "@framerjs/component-importer": "^0.0.32",
     "@storybook/addon-docs": "^5.3.19",
     "@storybook/addon-knobs": "^5.3.19",
-    "@storybook/addon-storysource": "^5.3.19",
+    "@storybook/addon-storysource": "^6.3.5",
     "@storybook/addons": "^5.3.19",
     "@storybook/cli": "^5.3.19",
     "@storybook/react": "^5.3.19",
