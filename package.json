@@ -44,7 +44,7 @@
     "@borealisgroup/eslint-config": "file:packages/eslint-config",
     "@borealisgroup/eslint-config-ts": "file:packages/eslint-config-ts",
     "@framerjs/component-importer": "^0.0.32",
-    "@storybook/addon-docs": "^5.3.19",
+    "@storybook/addon-docs": "^6.3.5",
     "@storybook/addon-knobs": "^5.3.19",
     "@storybook/addon-storysource": "^5.3.19",
     "@storybook/addons": "^5.3.19",
